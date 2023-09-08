@@ -1,0 +1,9 @@
+2023-09-07 21:52:37,880.v3_listening_worker.INFO ==================================================
+2023-09-07 21:52:37,880.v3_listening_worker.INFO Today is 2023-09-07 at 09:52 PM
+2023-09-07 21:52:37,883.v3_listening_worker.INFO Running on: nt Windows 10
+2023-09-07 21:52:37,884.v3_listening_worker.INFO Python version:  3.9.12
+2023-09-07 21:52:37,885.v3_listening_worker.INFO Python path: C:\Users\zachf\miniconda3
+2023-09-07 21:52:37,886.v3_listening_worker.INFO Working dir: C:\Users\zachf\Desktop\StreamingData\streaming-04-multiple-consumers
+2023-09-07 21:52:37,887.v3_listening_worker.INFO ==================================================
+2023-09-07 21:52:37,924.v3_listening_worker.INFO  [*] Ready for work. To exit press CTRL+C
+2023-09-07 21:52:37,925.v3_listening_worker.INFO  [x] Received Second task....2
