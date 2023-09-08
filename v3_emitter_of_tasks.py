@@ -29,7 +29,7 @@ HOST = "localhost"
 PORT = 9999
 ADDRESS_TUPLE = (HOST, PORT)
 TASKS_FILE_NAME = "tasks.csv"
-SHOW_OFFER = False  # Control whether to show the RabbitMQ Admin webpage offer
+SHOW_OFFER = True  # Control whether to show the RabbitMQ Admin webpage offer
 
 def offer_rabbitmq_admin_site():
     """Offer to open the RabbitMQ Admin website"""

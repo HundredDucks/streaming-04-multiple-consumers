@@ -59,7 +59,9 @@ Which worker gets which tasks? ** Which worker gets which task depends on whethe
 ## Notes
 In version 2, it is easier to change the queue name, the host machine, and the message sent, as these are stored in variables and passed as arguments to the functions that run in the "if name == __main__" portion of each file. We can simply go to these variables and change their values to change the queue name, the host machine, and the message sent.
 
-I was never able to get the RabbitMQ Admin Site to open. I think there is a problem with my install of RabbitMQ, but it was very difficult to diagnose. It didn't seem to effect my ability to use Pika and complete this assignment, so I have not resolved this issue yet.
+For a few hours, I wasn't able to get the RabbitMQ Admin Site to open. I thought there was a problem with my install of RabbitMQ, but it was very difficult to diagnose. It didn't seem to effect my ability to use Pika and complete this assignment.
+
+Update 9/8/2023: After doing a bit more research and a restart, it seems to be working now! I believe the issue had something to do with setting path variables for RabbitMQ and Erlang on my Windows system, but I can't say for certain as I tried several fixes. One important note is that I was prompted for a username and password to access the RabbitMQ admin site. For this purpose, "guest" was sufficient for both the username and password.
 
 I tried using the time.sleep() function from module 2 in addition to the multiple . method we used in this section, but it appears that time.sleep() overrides our . timing logic, so I removed that one.
 
@@ -76,3 +78,5 @@ Getting the new emitter file (V3) wasn't too difficult, as it was mostly mixing 
 See a running example with at least 3 concurrent process windows here:
 
 ![Three Terminals Sending and Receiving Message Simultaneously](./3Terminals.JPG)
+
+![RabbitMQ Admin Site](./RabbitMQAdmin.JPG)
